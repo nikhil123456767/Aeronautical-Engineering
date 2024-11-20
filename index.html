@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aeronautical Engineering - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function displayMessage() {
+            alert("Welcome to the Aeronautical Engineering site!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Aeronautical Engineering</h1>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><a href="basic_parts.html">Basic Parts</a></li>
+                <li><a href="mechanics.html">Mechanisms</a></li>
+                <li><a href="milestone.html">Milestones</a></li>
+                <li><a href="flowcharts.html">Flowcharts</a></li>
+                <li><a href="gallery.html">Diagrams and Pictures</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Aeronautical Engineering</h2>
+            <p>Aeronautical engineering is a branch of engineering that deals with the development of aircraft and spacecraft. It encompasses the design, construction, and science of the operation of aircraft and spacecraft.</p>
+            <p>This website aims to provide comprehensive knowledge about aeronautical engineering, including its history, basic components, mechanisms, and significant milestones in the field.</p>
+            <div class="image-container">
+                <img src="flow pic 10.png" alt="Aircraft" />
+                <button onclick="displayMessage()">Learn More</button>
+            </div>
+        </section>
+        <section>
+            <h3>Login</h3>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Aeronautical Engineering</p>
+    </footer>
+</body>
+</html>
